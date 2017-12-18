@@ -1,7 +1,7 @@
 const db = require('./connection')
 
 getAllRecCenters = () => {
-    return db('ballcourts')
+    return db.select('*').from('ballcourts')
 }
 
 
