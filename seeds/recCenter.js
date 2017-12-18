@@ -5,14 +5,14 @@ exports.seed = function(knex, Promise) {
     .then(function () {
       // Inserts seed entries
       return knex('ballcourts').insert([
-        {name: 'Green Valley Ranch Recreation Center', address: '4890 Argonne Way', city:'Denver', state: 'CO', number: '(720) 865-4370', hours: '', image: '', zipcode: 80249},
-        {name: 'Montbello Recreation Center', address: '15555 E. 53rd Ave', city: 'Denver', state: 'CO', number: '(720) 865-0580', hours: '', image: '', zipcode: 80239},
-        {name: 'Central Park Recreation Center', address: '9651 M.L.K. Jr. Blvd', city:'Denver', state: 'CO', number: '(720) 865-0750', hours: '', image: '', zipcode: 80238},
-        {name: 'Montclair Recreation Center', address: '729 Ulster Way', city:'Denver', state: 'CO', number: '(720) 865-0560', hours: '', image: '', zipcode: 80230},
-        {name: 'Hiawatha Davis Jr Recreation Center', address: '3334 Holly St', city:'Denver', state: 'CO', number: '(720) 865-0590', hours: '', image: '', zipcode: 80207},
-        {name: 'Swansea Recreation Center', address: '2650 E 49th Ave', city:'Denver', state: 'CO', number: '(720) 865-0540', hours: '', image: '', zipcode: 80216},
-        {name: 'St. Charles Recreation Center', address: '3777 N Lafayette St', city:'Denver', state: 'CO', number: '(303) 295-4462', hours: '', image: '', zipcode: 80205},
-        {name: 'Martin Luther King Jr. Recreation Center', address: '3880 Newport St', city:'Denver', state: 'CO', number: '(720) 865-0530', hours: '', image: '', zipcode: 80207},
+        {name: 'Green Valley Ranch Recreation Center', address: '4890 Argonne Way', city:'Denver', state: 'CO', number: '(720) 865-4370', hours: '', image: 'https://s3-media1.fl.yelpcdn.com/bphoto/WWQ_9-yXzL5g8pqC5h9kgQ/180s.jpg', zipcode: 80249},
+        {name: 'Montbello Recreation Center', address: '15555 E. 53rd Ave', city: 'Denver', state: 'CO', number: '(720) 865-0580', hours: '', image: 'https://www.denvergov.org/content/dam/denvergov/Portals/747/images/rec_centers/Montbello-exterior.jpg', zipcode: 80239},
+        {name: 'Central Park Recreation Center', address: '9651 M.L.K. Jr. Blvd', city:'Denver', state: 'CO', number: '(720) 865-0750', hours: '', image: 'http://recmanagement.com/images/201205/201205_aw_1d_04.jpg', zipcode: 80238},
+        {name: 'Montclair Recreation Center', address: '729 Ulster Way', city:'Denver', state: 'CO', number: '(720) 865-0560', hours: '', image: 'http://www.thebluebook.com/inc/img/qp/229035/montclair-recreation-center-pool.JPG', zipcode: 80230},
+        {name: 'Hiawatha Davis Jr Recreation Center', address: '3334 Holly St', city:'Denver', state: 'CO', number: '(720) 865-0590', hours: '', image: 'https://www.denvergov.org/content/dam/denvergov/Portals/747/images/rec_centers/Hiawatha_Buiding.jpg', zipcode: 80207},
+        {name: 'Swansea Recreation Center', address: '2650 E 49th Ave', city:'Denver', state: 'CO', number: '(720) 865-0540', hours: '', image: 'https://www.denvergov.org/content/dam/denvergov/Portals/747/images/rec_centers/Swansea_Building.jpg', zipcode: 80216},
+        {name: 'St. Charles Recreation Center', address: '3777 N Lafayette St', city:'Denver', state: 'CO', number: '(303) 295-4462', hours: '', image: 'https://www.denvergov.org/content/dam/denvergov/Portals/747/images/rec_centers/StCharles-exterior-door1.jpg', zipcode: 80205},
+        {name: 'Martin Luther King Jr. Recreation Center', address: '3880 Newport St', city:'Denver', state: 'CO', number: '(720) 865-0530', hours: '', image: 'https://www.denvergov.org/content/dam/denvergov/Portals/747/images/rec_centers/MLK_Building.jpg', zipcode: 80207},
         {name: 'Washington Park Recreation Center', address: '701 S Franklin St', city:'Denver', state: 'CO', number: '(720) 865-3400', hours: '', image: '', zipcode: 80209},
         {name: 'La Familia Recreation Center', address: '65 S Elati St', city:'Denver', state: 'CO', number: '(720) 865-2170', hours: '', image: '', zipcode: 80223},
         {name: 'Eisenhower Recreation Center', address: '4300 E Dartmouth Ave', city:'Denver', state: 'CO', number: '(720) 865-0730', hours: '', image: '', zipcode: 80222},
