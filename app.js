@@ -6,7 +6,7 @@ const index = require('./routes/ball_up_api')
 
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
-app.use('/', index)
+app.use('/api/courts', index)
 
 
 app.listen(port, ()=> {
